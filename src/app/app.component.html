@@ -1,0 +1,6 @@
+<app-navbar></app-navbar>
+<!-- <app-home *ngIf="exibeHome"></app-home> -->
+<app-home [hidden]="!exibeHome"></app-home>
+
+<button (click)="destruir()" class="btn btn-primary">Esconder</button>
+<app-footer></app-footer>
